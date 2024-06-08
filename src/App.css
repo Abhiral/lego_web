@@ -1,0 +1,316 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Carlito", sans-serif !important;
+}
+/* .body {
+ 
+  overflow-x: hidden;
+  max-width: 100%;
+  background: linear-gradient(30deg, rgba(11,48,237,1) 7%, rgba(3,24,105,1) 69%, rgba(1,19,80,1) 87%);
+ 
+} */
+
+#container {
+  width: 100%;
+  height: 100vh;
+  /*  aspect-ratio: 2/1;*/
+  margin: auto;
+  /*  border: solid black 2px;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+  scroll-snap-type: y mandatory;
+}
+.slides {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: center;
+}
+
+.main-container {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(90deg, #041cc6, #020958);
+  color: #fff;
+
+  /* white-space: nowrap; */
+  /*overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  width: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  */
+
+  /*padding: 0 70px;*/
+}
+/* .main-container > div {
+  aspect-ratio: 1/1;
+  scroll-snap-align: center;
+} */
+
+.Banner-video {
+  padding: 0;
+}
+/* .Goverance,
+.onto,
+.Semantic,
+.consumer,
+.usecase,
+.Architect,
+.Blog,
+.about,
+.newContact,
+.team-members,
+.Community {
+  padding-top: 70px !important;
+} */
+
+@media (max-width: 800px) {
+  .row-padding {
+    padding: 0 20px !important;
+  }
+  /* .Goverance,
+  .onto,
+  .Semantic,
+  .consumer,
+  .usecase,
+  .Architect,
+  .Blog,
+  .about,
+  .classic,
+  .newContact,
+  .today,
+  .our-vision,
+  .team-members,
+  .Community,
+  .Topology {
+    padding-top: 60px !important;
+  } */
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    padding: 0px 10px !important;
+  }
+  .row-padding {
+    padding: 0 !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+  p {
+    font-size: 0.9rem !important;
+  }
+
+  /* .onto,
+  .Semantic,
+  .consumer,
+  .usecase,
+  .Architect,
+  .Blog,
+  .about,
+  .classic,
+  .newContact,
+  .our-vision,
+  .team-members,
+  .archimod,
+  .main,
+  .Banner-video,
+  .usecase,
+  .Wrangler,
+  .Topology {
+    padding-top: 60px !important;
+  } */
+
+  .top-btn {
+    font-size: 2.1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #0318b0;
+    background-color: #fff;
+    opacity: 0.1;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5rem;
+    right: 2.8rem;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  @keyframes gototop {
+    0% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(1rem);
+    }
+  }
+}
+.form-error {
+  font-size: 15px;
+  color: #b22b27;
+}
+.send-btn-modal {
+  font-family: "Carlito", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #f7327a;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+  margin-bottom: 10px;
+}
+.formcontact .row .col-sm-6 .css-b62m3t-container .css-13cymwt-control {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 40px;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  margin-top: 11px;
+  border-width: 1px;
+  box-sizing: border-box;
+  margin-top: 7px;
+}
+
+/* .row-padding {
+  padding: 0 70px;
+} */
+.mobile-view > div {
+  padding: 5px;
+  border: 1px solid #999 !important;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  cursor: pointer !important;
+  background: rgb(191, 33, 255);
+}
+.mobile-view > div > span {
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+html.react-tel-input {
+  font-family: "Carlito", sans-serif !important;
+  font-size: 15px !important;
+  position: relative !important;
+  width: 100% !important;
+}
+html .react-tel-input .form-control {
+  position: relative !important;
+  font-size: 14px !important;
+  letter-spacing: 0.01rem !important;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  padding-left: 48px !important;
+  margin-left: 0 !important;
+  background: #ffffff !important;
+
+  border: 1px solid #cacaca !important;
+  border-radius: 5px !important;
+  line-height: 25px !important;
+  height: 48px !important;
+  width: 100% !important;
+  outline: none !important;
+}
+html .react-tel-input .country-list .country-name {
+  color: #000 !important;
+}
+
+.panel {
+  height: 100%;
+  scroll-snap-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* display: flex; */
+}
+
+/* .main-container>div:first-child{
+  display: block;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 1600px) {
+  .main-container {
+    max-width: 1600px;
+  }
+  .main-container,
+  .nav-container {
+    background: transparent !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    height: auto !important;
+  }
+  .panel {
+    height: auto !important;
+    scroll-snap-align: none !important;
+    overflow-y: auto;
+  }
+  .Goverance,
+  .onto,
+  .consumer,
+  .usecase,
+  .Architect,
+  .Blog,
+  .about,
+  .classic,
+  .newContact,
+  .today,
+  .our-vision,
+  .Topology,
+  .panel {
+    padding-top: 40px !important;
+  }
+
+  .Banner-video video {
+    width: 100% !important;
+    height: auto !important;
+  }
+}

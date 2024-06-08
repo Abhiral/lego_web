@@ -1,0 +1,35 @@
+.onto-logo {
+  display: flex;
+  max-width: 100%;
+  /* height: 100px; */
+}
+.onto-logo img {
+  height: auto;
+  width: 193px;
+  /* margin: 20px 10px 20px 0; */
+}
+.onto-logo h2 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  /* .onto-logo {
+    height: 80px;
+  } */
+  .onto-logo img {
+    /* height: 28px; */
+    width: 110px;
+  }
+  .onto-logo h2 {
+    font-size: 17px !important;
+    margin-top: 12px;
+  }
+}

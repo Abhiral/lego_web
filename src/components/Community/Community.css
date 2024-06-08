@@ -1,0 +1,28 @@
+.Community h1{
+    font-size: 38px;
+ 
+  line-height: 1;
+}
+.soon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 576px){
+    .Community{
+        padding-top: 60px!important;
+    }
+    .Community h1{
+        font-size: 20px;
+     
+      line-height: 1;
+    }
+    .soon{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top:5px;
+    }
+}

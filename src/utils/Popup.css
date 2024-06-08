@@ -1,0 +1,47 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper .slogan{
+    color: #fff;
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+}
+
+.popuplogo img{
+    height: auto;
+    width: 150px;
+}
+
+@media (max-width: 576px) {
+    .header-wrapper button{
+        padding: 0;
+    }
+    .header-wrapper button svg{
+        font-size: 16px;
+    }
+    .header-wrapper .slogan {
+        font-size: 11px;
+        text-align: center;
+    }
+    .popuplogo img {
+        width: 65px;
+    }
+    .form-control{
+        padding: 0.2rem;
+        font-size: 0.8rem;
+    }
+    html .react-tel-input .form-control{
+        height: 28px !important;
+    }
+    .formcontact{
+        margin: 0 -20px;
+    }
+    .formcontact button{
+        width: 100%!important;
+        font-size: 14px!important;
+        padding: 5px!important;
+    }
+}

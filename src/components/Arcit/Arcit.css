@@ -1,0 +1,293 @@
+/* .archit-containerxv{
+    height: 1000px;
+    width: 1500px;
+}
+.ar{
+ 
+     
+        display: inline-flex;
+        grid-template-columns: 1fr, 1fr;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-top:6rem;
+      }
+
+
+.arc-reci{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 10px;
+    border-radius: 7px;
+   
+    margin-left: 530px;
+
+}
+.main-archig{
+    height: 1000px;
+    width: 1500px;
+}
+.left-arch{
+    display: grid;
+    grid-template-columns: 1fr;
+  gap: 20px;
+}
+.small-rec1{
+    width: 150px;
+    height: 100px;
+    background-color: #00b0f0;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 30px;
+}
+.small-rec1 span{
+    top:-2px;
+    font-size:15px;
+}
+.small-rec-below{
+    width: 150px;
+    height: 195px;
+    background-color: #00b0f0;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.small-rec-below-container{
+    display:grid;
+    grid-template-columns: 1fr;
+  gap: 10px;
+  place-items: center;
+  
+  
+}
+.rec-data-lake{
+    width: 80px;
+    height: 25px;
+    background-color: #aa7ce9;
+    margin-bottom: 10px;
+   text-align: center;
+    margin-top: 20px;
+
+} 
+.cylinder {
+    --r: 6px;
+    width: 72px;
+    height: 35px;
+    background: radial-gradient(50% var(--r) at 50% var(--r), #ccb0f2 99.99%, #0000 0), radial-gradient(50% var(--r) at 50% calc(100% - var(--r)), #aa7ce9 99.99%, #0000 0), #aa7ce9;
+    border-radius: 100% / calc(var(--r) * 2);
+     line-height: 40px;
+     text-align: center;
+}
+
+.cylinder1 {
+    --r: 6px;
+    width: 72px;
+    height: 46px;
+    background: radial-gradient(50% var(--r) at 50% var(--r), #ccb0f2 99.99%, #0000 0), radial-gradient(50% var(--r) at 50% calc(100% - var(--r)), #aa7ce9 99.99%, #0000 0), #aa7ce9;
+    border-radius: 100% / calc(var(--r) * 2);
+    text-align: center; 
+    line-height: 40px;
+    font-size: 11px; 
+}
+  
+
+.big-rec{
+    width: 800px;
+    height: 450px;
+    border: 1px solid yellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    border-radius: 7px;
+    place-items: center;
+}
+.big-rec-small{
+    width: 600px;
+    height: 200px;
+    border: 1px dashed yellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    border-radius: 7px;
+}
+.inner-symbol{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+.inner-symbol1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.cyc1 {
+    --r: 8px;
+    max-width: 72px;
+    height: 55px;
+    background: radial-gradient(50% var(--r) at 50% var(--r), #ccb0f2 99.99%, #0000 0), radial-gradient(50% var(--r) at 50% calc(100% - var(--r)), #aa7ce9 99.99%, #0000 0), #aa7ce9;
+    border-radius: 100% / calc(var(--r) * 2);
+    text-align: center; 
+    line-height: 40px;
+    font-size: 11px; 
+}
+.cyc2 {
+    --r: 8px;
+    max-width: 72px;
+    height: 55px;
+    background: radial-gradient(50% var(--r) at 50% var(--r), #ccb0f2 99.99%, #0000 0), radial-gradient(50% var(--r) at 50% calc(100% - var(--r)), #aa7ce9 99.99%, #0000 0), #aa7ce9;
+    border-radius: 100% / calc(var(--r) * 2);
+    text-align: center; 
+    line-height: 40px;
+    font-size: 11px; 
+}
+.rec1{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    text-align: center;
+    place-content: center;
+}
+.rec2{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    text-align: center;
+}
+.rec3{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    text-align: center;
+}
+.rec4{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    text-align: center;
+}
+.rec5{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    text-align: center;
+}
+.rec6{
+    max-width: 140px;
+    height: 60px;
+    background: linear-gradient(1deg,#9332b3,#c30580);
+    margin-bottom: 10px;
+    border-radius: 7px;  
+    position:relative;
+     left:48px;
+      top:2px;
+      text-align: center;
+}
+  
+.arrow1 {
+    position: relative;
+    padding-right: 20px;
+  }
+  
+  .arrow1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #000;
+    transform: translateY(-50%);
+  }
+  .arrow1 {
+    font-size: 25px;
+    width:20px;
+    color: yellow;
+    }
+    .arrowR {
+        font-size: 25px;
+        width:120px;
+        color: yellow;
+        transform: rotate(90deg);
+        }
+        .arrowlR{
+            font-size: 25px;
+            width:20px;
+            color: yellow;
+            transform: rotate(180deg);
+            }
+    .rec-key{
+     
+      
+        width: 1200px;
+    height: 260px;
+        background-color: #5c2d9a ;
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        position: relative;
+     
+     
+    }
+    .key-flex{
+       display: flex;
+        justify-content: space-around;
+        place-content: start;
+        gap:40px;
+        margin-top:5px;
+        text-align:center;
+    }
+    .cir1{
+        background-color: #1a2558;
+        width: 200px;
+        height: 200px;
+        display: grid;
+        text-align:center;
+     padding:12px;
+     margin:20px;
+        font-size: 11px;
+        border-radius: 50%;
+        
+    }
+    .Arch-img-container {
+        max-width: 60%;
+        place-content:center;
+        margin-left:100px;
+        } 
+         */
+
+.Arch-img-container {
+  text-align: center;
+}
+
+.Arch-img-container img {
+  width: auto;
+  height: 80vh;
+}
+
+#Architecture {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .Arch-img-container img {
+    width: 100%;
+    height: auto;
+  }
+}

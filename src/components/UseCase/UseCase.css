@@ -1,0 +1,32 @@
+.usecase{
+    padding-top: 70px;
+}
+.usecase h1{
+    font-size: 38px;
+ 
+  line-height: 1;
+}
+.soon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 576px){
+    .usecase{
+        padding-top: 60px!important;
+    }
+    .usecase h1{
+        font-size: 20px;
+     
+      line-height: 1;
+    }
+    .soon{
+       margin-top: 5px;
+       display: flex;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+    }
+    
+}
